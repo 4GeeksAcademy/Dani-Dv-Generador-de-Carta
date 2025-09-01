@@ -30,14 +30,14 @@ window.onload = function() {
     if(random == 1 || random == 0){
       if(randomSim === "♥" ){
         number.style.color = "red"
-        random = "♥"
+        random = "A"
       }else if(randomSim === "♦" ){
         number.style.color = "red"
-        random = "♦" 
+        random = "A" 
       }else if(randomSim === "♠"){
-        random = "♠"
+        random = "A"
       }else if(randomSim === "♣"){
-        random = "♣"
+        random = "A"
       }
     }else if(random == 11){
       random = "👸🏼"
